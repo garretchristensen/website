@@ -1,0 +1,63 @@
+body {background-color: #EEE;
+	font-family: Helvetica, Arial, sans-sarif;
+}
+
+/*what all links look like*/
+a {
+	text-decoration: none;
+}
+
+/*unordered lists*/
+/*margin order top right bottom left*/
+/*if you include only two it's top+bot and r+l*/
+ul {
+	list-style-type: none;
+	padding: 10px;
+}
+
+li {
+	margin: 10px ;
+}
+
+/*the entire page*/
+#container {
+	background-color: white;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	background-color: #66CCff;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+/*both halves on content together*/
+#content{
+	padding: 10px;
+}
+
+/*navigation bar on left*/
+#nav {
+	width: 180px;
+	float: left;
+}
+#nav .selected{
+	font-weight: bold;
+}
+
+/*right, main part of contents*/
+#main {
+	width: 600px;
+	float: right;
+}
+
+#footer {
+	clear: both;
+	padding: 10px;
+	background-color: #999999;
+	color: white;
+	text-align: right;
+}
