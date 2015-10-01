@@ -6,13 +6,16 @@ body {background-color: #EEE;
 a {
 	text-decoration: none;
 }
+a:hover {
+    color: #003366;
+}
 
 /*unordered lists*/
 /*margin order top right bottom left*/
 /*if you include only two it's top+bot and r+l*/
 ul {
 	list-style-type: none;
-	padding: 10px;
+	/*padding: 10px;*/
 }
 
 li {
@@ -48,11 +51,21 @@ li {
 	font-weight: bold;
 }
 
+/*the photo in the top right*/
+#photo { 
+	float: right;
+	padding: 0px 0px 0px 2px;
+ }
+img.resize{
+   width:300px;
+}
+
 /*right, main part of contents*/
 #main {
 	width: 600px;
 	float: right;
 }
+#about { float:center;}
 
 #footer {
 	clear: both;
