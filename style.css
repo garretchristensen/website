@@ -44,7 +44,7 @@ li {
 
 /*navigation bar on left*/
 #nav {
-	width: 180px;
+	width: 170px;
 	float: left;
 }
 #nav .selected{
@@ -52,10 +52,14 @@ li {
 }
 
 /*the photo in the top right*/
-#photo { 
+/* Top, right, bottom, left*/
+#photo {
 	float: right;
-	padding: 0px 0px 0px 2px;
+	padding: 0px 0px 0px 10px;
  }
+
+#photo img{border:5px solid #000000;}
+
 img.resize{
    width:300px;
 }
@@ -65,7 +69,13 @@ img.resize{
 	width: 600px;
 	float: right;
 }
-#about { float:center;}
+#about {
+	width: 340px;
+	margin-left: 170px;
+	float:center;
+		text-align:left;
+		padding:10px;
+	}
 
 #footer {
 	clear: both;
